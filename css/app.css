@@ -61,6 +61,9 @@ h1 {
     text-transform: uppercase;
     text-shadow: 0 0 1px white;
 }
+.destination::hover h1 {
+    transform :rotate(0deg)
+}
 
 h1::after {
     border: 5px solid #02ccba;
@@ -87,7 +90,6 @@ article header {
 time {
     color: #7d97ad;
 }
-
 article img {
     height: auto;
     width: 100%;
